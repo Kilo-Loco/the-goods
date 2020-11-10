@@ -18,6 +18,7 @@ let package = Package(
             path: "./Sources/the-goods/core"),
         .target(
             name: "TheGoodsAuth",
+            dependencies: ["TheGoods"],
             path: "./Sources/the-goods/features/auth"),
         
         
