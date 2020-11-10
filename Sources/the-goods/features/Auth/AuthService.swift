@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import TheGoods
 
 public enum AuthService {
     public static func doSomething() {
-        print("do something auth")
+        CoreService.logSomething("Hello from auth using core")
     }
 }

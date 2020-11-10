@@ -8,7 +8,7 @@
 import Foundation
 
 public enum CoreService {
-    public static func doSomething() {
-        print("do something core")
+    public static func logSomething(_ message: String) {
+        print(message)
     }
 }

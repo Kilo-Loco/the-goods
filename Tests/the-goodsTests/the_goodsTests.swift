@@ -6,7 +6,7 @@ final class the_goodsTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        CoreService.doSomething()
+        CoreService.logSomething("OHAI")
         XCTAssertTrue(true)
     }
 
