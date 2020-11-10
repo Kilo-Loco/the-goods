@@ -23,6 +23,6 @@ let package = Package(
         
         .testTarget(
             name: "the-goodsTests",
-            dependencies: ["the-goods"]),
+            dependencies: ["TheGoods"]),
     ]
 )
