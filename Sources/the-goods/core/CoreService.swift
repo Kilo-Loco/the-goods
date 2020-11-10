@@ -7,8 +7,8 @@
 
 import Foundation
 
-enum CoreService {
-    static func doSomething() {
+public enum CoreService {
+    public static func doSomething() {
         print("do something core")
     }
 }

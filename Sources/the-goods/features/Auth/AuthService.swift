@@ -7,8 +7,8 @@
 
 import Foundation
 
-enum AuthService {
-    static func doSomething() {
+public enum AuthService {
+    public static func doSomething() {
         print("do something auth")
     }
 }
